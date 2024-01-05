@@ -211,7 +211,7 @@ fn header_lua(series: &Series) -> String {
 /// Converts `Grid<u8>` and `Series` into lua code. The basic structure is as follows.
 ///
 /// ```lua
-/// local mod = {
+/// local mod = {};
 /// mod.width = 512;
 /// mod.height = 512;
 /// mod.map = {
