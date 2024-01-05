@@ -76,7 +76,6 @@ dependencies = [
  "clap",
  "image",
  "rand",
- "rand_chacha",
  "thiserror",
 ]
 
